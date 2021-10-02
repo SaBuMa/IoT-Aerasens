@@ -1,2 +1,2 @@
 # IoT-Aerasens
-this is the code for the project Aérasens
+these are the documents for the project Aérasens
