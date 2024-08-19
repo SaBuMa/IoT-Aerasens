@@ -26,19 +26,19 @@ Queremos que los servicios de gas domiciliarios ya no sean un problema de salud 
 </p>
 
 ## Actuadores
-* LEDs RGB   
+* __LEDs RGB__   
 Los LEDs RGB se han implementado para comunicar de manera visual la situación actual del aire en el ambiente en el que se encuentre cada uno de los sensores implementados. 
 Haciendo uso de un solo LED por sensor, se puede evidenciar el estado del aire, teniendo en cuenta la siguiente convención:
 
     * Verde: Estado de oxígeno óptimo.​​
     * Amarillo: Estado de oxígeno precario.​​
     * Rojo: Estado de oxígeno crítico.
-* Buzzer  
+* __Buzzer__  
 Para proporcionar una señal de forma auditiva se va a utilizar como actuador un buzzer.  
 
     El propósito de este buzzer es comunicar si alguno de los sensores que se encuentran analizando el ambiente, encuentra que el aire esta por encima de los parámetros permitidos de cada uno de los tipos de gases que se miden.
 
-* Relay  
+* __Relay__  
 Partiendo de un ambientador que se encuentra en el hogar, se ha decidido otorgale algun tipo de inteligencia o control a este aparato.  
 
     El dispositivo que permite este control inteligente es el Relay, el cual nos permite controlar el accionamiento del ambientador por medio del dashboard del usuario.
