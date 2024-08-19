@@ -13,6 +13,18 @@ Queremos que los servicios de gas domiciliarios ya no sean un problema de salud 
 
 * __UN "ALERTADOR"__: Si se detectan niveles de concentración altos, emitirá una alerta por medio de luces LED, el sonido de un Buzzer y un indicador en la Página, además de enviar alertas mediante Twitter.​
 
+## Arquitectura Alto Nivel
+
+<p align="center">
+<img src="GitImages/Arquitectura de alto nivel_Página_1.png" alt="Aerasense_altonivel" width="500"/>  
+</p>
+
+## Caraterísticas Dashboard
+
+<p align="center">
+<img src="GitImages/Aerasens_Dashboard.png" alt="Aerasense_dashboard" width="500"/>  
+</p>
+
 ## Actuadores
 * LEDs RGB   
 Los LEDs RGB se han implementado para comunicar de manera visual la situación actual del aire en el ambiente en el que se encuentre cada uno de los sensores implementados. 
@@ -33,10 +45,9 @@ Partiendo de un ambientador que se encuentra en el hogar, se ha decidido otorgal
 
     Además de proporcionar control sobre el aromatizador, el Relay también tiene la característica de aislar galvánicamente el circuito eléctrico del ambientador de nuestro dispositivo de control que es la raspberry
   
-## Dashboard
-
+## Esquematico
 <p align="center">
-<img src="GitImages/Aerasens_Dashboard.png" alt="Aerasense_dashboard" width="500"/>  
+<img src="GitImages/Aerasens_project_bb.png" alt="Aerasense_esquematico" width="500"/>  
 </p>
 
 ## Montaje
