@@ -36,7 +36,7 @@ Haciendo uso de un solo LED por sensor, se puede evidenciar el estado del aire, 
 * __Buzzer__  
 Para proporcionar una señal de forma auditiva se va a utilizar como actuador un buzzer.  
 
-    El propósito de este buzzer es comunicar si alguno de los sensores que se encuentran analizando el ambiente, encuentra que el aire esta por encima de los parámetros permitidos de cada uno de los tipos de gases que se miden.
+    El propósito de este buzzer es comunicar si alguno de los sensores que se encuentran analizando el ambiente, encuentra que el aire está por encima de los parámetros permitidos de cada uno de los tipos de gases que se miden.
 
 * __Relay__  
 Partiendo de un ambientador que se encuentra en el hogar, se ha decidido otorgale algun tipo de inteligencia o control a este aparato.  
